@@ -5,3 +5,4 @@ ADD . /app
 RUN npm install 
 EXPOSE 3000 30000
 CMD [ "npm", "start" ]
+  
