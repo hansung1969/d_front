@@ -1,4 +1,4 @@
-FROM node:20
+FROM node:20-bullseye
 RUN mkdir -p /app
 WORKDIR /app
 ADD . /app
